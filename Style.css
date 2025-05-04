@@ -1,1 +1,21 @@
 
+.box_1 {
+    background-color: green;
+    color: rgb(68, 97, 242);
+    padding: 1rem;
+}
+
+.box_2 {
+    background-color: yellow;
+    color: black;
+    padding: 1rem;
+}
+
+@media screen and (min-width:1080px) {
+.container{
+    display: flex;
+}
+.box_1 {
+    background-color: darkblue;
+}
+}
